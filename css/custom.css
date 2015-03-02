@@ -24,7 +24,7 @@
 
 .banner-home
 {
-    height: 75%;
+    height: 50%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,7 +32,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../img/banner-home.png');
+    background-image: url('../img/banner-home.jpg');
     overflow: hidden;
     opacity: .75;
 }
