@@ -1,110 +1,131 @@
 <!--<!DOCTYPE html>-->
 <html>
 <head>
-  <title>Thinkseed</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Site Title-->
+    <title>Thinkseed</title>
+    
+    <!--Import Site Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <!--Import CSS Files-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css"/>
 
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
-  <link type="text/css" rel="stylesheet" href="css/animate.css"/>
-  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
 </head>
-
 <body>
 
-<nav class="cyan z-depth-2" role="navigation" style="position: fixed; z-index: 999;">
-  <div class="nav-wrapper">
-    <div class="col s12">
-      <a href="index.html" class="brand-logo hide-on-med-and-down" style="padding-left: 3em; padding-top: 4px"><img src="img/logo.png" style="border-radius: 51px;" class="z-depth-2" width=100 height=100 alt="Thinkseed Logo"></a>
-      <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu" style="padding-left: 1em;"></i></a>
-      <ul class="right hide-on-med-and-down" style="padding-right: 7.5em;">
-        <li><a href="about.html">About Us</i></a></li>
-      </ul>
-      <a id="moible-menu" href="index.html" class="brand-logo hide-on-large-only" style="padding-top: 4px"><img src="img/logo.png" style="border-radius: 51px;" class="z-depth-2" width=75 height=75 alt="Thinkseed Logo"></a>
-      <ul class="side-nav" id="mobile-menu">
-        <li><a href="about.html">About Us</i></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- About Dropdown Structure -->
+    <ul id="about-dropdown" class="dropdown-content dropdown-custom-style">
+        <li><a href="#!">The Gurdwara</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Contact Us</a></li>
+    </ul>
+    <!-- About Dropdown Structure -->
+    <ul id="services-dropdown" class="dropdown-content dropdown-custom-style">
+        <li><a href="#!">Akhand Paath</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Sahej Paath</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Sukhmani Sahib</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Anand Karaj</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Kirtan At Home</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Antim Ardas Ceremony</a></li>
+    </ul>
 
-<div id="content">
-
-  <div class="banner-home parallax-effect">
-    <div class="container" style="padding-top:75px; padding-bottom: 75px">
-      <div class="banner-home-content animated fadeIn">
-	<h1 style="font-family: roboto !important; font-weight: 200; font-size: 5em;">Thinkseed</h1>
-        <h2 style="font-family: roboto !important; font-weight: 200; font-size: 1.75em;">Providing a platform for the next generation of educational content.</h2>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="container">
-      <div class="row nomargin promo" style="padding-top: 40px; padding-bottom: 40px">
-        <div class="col s12 m4 l4">
-          <p><i class="large mdi-action-account-child"></i></p> 
-	  <p>Engaging</p>
-	  <p>We want to "game-ify" the textbook experience. Our games will provide the same educational content, but in ways that are engaging for all.</p>
-	</div>
-	<div class="col s12 m4 l4">
-	  <p><i class="large mdi-image-tune"></i></p> 
-	  <p>Customizable</p>
-	  <p>Learn in the way you feel most cofortable. Our platform will include content for students who like to learn by seeing, hearing, and doing.  </p>
-	</div>
-	<div class="col s12 m4 l4">
-          <p><i class="large mdi-device-devices"></i></p> 
-	  <p>Multi-Platform</p>
-	  <p>Accessing our content is easy. The Lrn Platform will be accessible on all devices, including smartphones, tablets, and computers.</p>
-	</div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-  <footer class="page-footer cyan">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h4 class="white-text">About Thinkseed</h4>
-          <p class="grey-text text-lighten-4">Thinkseed is an initiative that was started by one individual: Gary Sahota, a full time MBA student at the Rady School of Management at the University of California, San Diego. To learn more about how Gary is using his passion for technology to further his dream of making education more accessible to all, click here.</p>
+    <nav class="orange z-depth-2" style="position: fixed; z-index: 999;">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="index.html" class="navbar-logo-custom brand-logo hide-on-med-and-down"><img src="img/logo.png" alt="Thinkseed Logo"></a>
+                <a href="#" data-activates="mobile-menu" class="navbar-mobile-logo-custom button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="navbar-menu-custom right hide-on-med-and-down">
+                    <!-- Dropdown Triggers -->
+                    <li><a class="dropdown-button waves-effect waves-navbar" href="#!" data-activates="about-dropdown">About</a></li>
+                    <li><a class="dropdown-button waves-effect waves-navbar" href="#!" data-activates="services-dropdown">Services</a></li>
+                    <!-- Normal Links -->
+                    <li><a href="#">Calendar</i></a></li>
+                    <li><a href="#">Media</i></a></li>
+                    <li><a href="#">Visiting</i></a></li>
+                </ul>
+                <a href="index.html" class="brand-logo hide-on-large-only" id="moible-menu"><img src="img/logo.png" alt="Thinkseed Logo"></a>
+                <ul class="side-nav" id="mobile-menu">
+                    <!-- Dropdown Triggers -->
+                    <li><a class="dropdown-button" href="#!" data-activates="about-dropdown">About</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="services-dropdown">Services</a></li>
+                    <!-- Normal Links -->
+                    <li><a href="#">Calendar</i></a></li>
+                    <li><a href="#">Media</i></a></li>
+                    <li><a href="#">Visiting</i></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h4 class="white-text">Connect With Us</h4>
-          <ul>
-            <li><a class="white-text" href="https://plus.google.com/102619103846821898603" rel="publisher">Google+</a></li>
-	    <li><a class="white-text" href="https://github.com/thinkseed/" rel="publisher">GitHub</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/garysahota">LinkedIn</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h4 class="white-text">Site Map</h4>
-          <ul>
-            <li><a class="white-text" href="about.html">About Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <a href="index.html" style="color:white">Copyright 2015 Thinkseed, All Rights Reserved </a>
-      </div>
-    </div>
-  </footer>
+    </nav>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  
-  <!-- Parallax Effect Int Script-->
-  <script>
-      $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-  </script>
+    <div id="content">
+        <div class="banner-home parallax-effect">
+            <div class="container" style="padding-top:75px; padding-bottom: 75px">
+                <div class="banner-home-content animated fadeIn">
+                    <h1 class="h1-banner">Waheguru Ji Ka Khalsa</h1>
+                    <h1 class="h1-banner">Waheguru Ji Ki Fateh</h1>
+                    <p class="p-banner-quote">"I seldom end up where I wanted to go, but almost always end up where I need to be."</p>
+                    <p class="p-banner-author">Sri Guru Granth Sahib Ji</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="orange page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <h4 class="white-text">Sikh Center of the Pacific Coast</h4>
+                    <h5 class="grey-text text-lighten-4">2211 S. Highland Ave</br>Selma, CA 93662</br>(559) 891-1123</h5>
+                </div>
+                <div class="col s12 m2 offset-m6">
+                    <h4 class="white-text">Site Map</h4>
+                    <ul>
+                        <li><a class="white-text" href="#!">About</a></li>
+                        <li><a class="white-text" href="#!">Services</a></li>
+                        <li><a class="white-text" href="#">Calendar</i></a></li>
+                        <li><a class="white-text" href="#">Media</i></a></li>
+                        <li><a class="white-text" href="#">Visiting</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a href="index.html" style="color:white">Copyright 2015 Thinkseed, All Rights Reserved </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <!-- Parallax Effect Int Script-->
+    <script>
+        $(document).ready(function(){
+        $('.parallax').parallax();
+        });
+        $(".button-collapse").sideNav();        
+        $(".dropdown-button").dropdown({
+            inDuration: 300,
+            outDuration: 225,
+            constrain_width: false, // Does not change width of dropdown to that of the activator
+            hover: false, // Activate on click
+            alignment: 'left', // Aligns dropdown to left or right edge (works with constrain_width)
+            gutter: 0, // Spacing from edge
+            belowOrigin: true // Displays dropdown below the button
+        });
+    </script>
 
 </body>
 </html>

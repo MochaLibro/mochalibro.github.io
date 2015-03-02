@@ -1,0 +1,107 @@
+/* Custom Stylesheet For Selma Gurdwara*/
+
+.navbar-logo-custom {
+    padding-left: 3em !important;
+}
+
+.navbar-menu-custom {
+    padding-right: 7.5em !important;
+}
+
+.waves-navbar {
+    overflow: -moz-hidden-unscrollable;
+}
+
+.navbar-mobile-logo-custom {
+    padding-left: 1em !important;
+}
+
+.dropdown-custom-style {
+    width: auto !important;
+    height: auto !important;
+    text-align: center !important;
+}
+
+.banner-home
+{
+    height: 75%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../img/banner-home.png');
+    overflow: hidden;
+    opacity: .75;
+}
+
+.banner-home-content
+{
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.h1-banner {
+    font-family: roboto !important;
+    font-weight: 200 !important;
+    font-size: 5em !important;
+}
+
+.p-banner-quote {
+    font-family: roboto !important;
+    font-weight: 200 !important;
+    font-size: 3em !important;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.p-banner-author {
+    font-family: roboto !important;
+    font-weight: 200 !important;
+    font-size: 2em !important;
+}
+
+.page-footer {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+h1
+{
+    font-size: 3.0em;
+    font-family: roboto !important;
+    font-weight: 200 !important;
+}
+
+h2
+{
+    font-size: 2.5em;
+    font-family: roboto !important;
+    font-weight: 200 !important;
+}
+
+h3
+{
+    font-size: 2em;
+    font-family: roboto !important;
+    font-weight: 200 !important;
+}
+
+h4
+{
+    font-size: 1.5em;
+    font-family: roboto !important;
+    font-weight: 200 !important;
+}
+
+h5
+{
+    font-size: 1.2em;
+    font-family: roboto !important;
+    font-weight: 200 !important;
+}
