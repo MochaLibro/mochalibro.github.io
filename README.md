@@ -1,3 +1,3 @@
-Welcome!
+#Hello
 
-This is the official GitHub Repo for Thinkseed's current website.
+Forwarding to www.myapollomail.com
